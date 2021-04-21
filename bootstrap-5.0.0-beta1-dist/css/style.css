@@ -3,20 +3,38 @@
     src: url('../font/viga-regular-webfont.woff');
 }
 
+.collapse span {
+    opacity: 1;
+}
 
+.collapse a:hover {
+    background-color: rgb(250, 121, 121);
+}
 
 @media (min-width: 992px) {
-
-    .docter,
-    .love {
+    .collapse span {
         opacity: 0;
     }
 
-    .collapse .docter0 {
-        margin-right: -80px;
+    .collapse .r-p {
+        margin-right: -90px;
     }
 
-    .collapse .love0 {
-        margin-right: -95px;
+    .collapse .d-p {
+        margin-right: -77px;
     }
+
+    .collapse .j-d {
+        margin-right: -77px;
+    }
+
+    .collapse .dokter {
+        margin-right: -25px;
+    }
+
+    .collapse .pasien {
+        margin-right: -20px;
+    }
+
+
 }

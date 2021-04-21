@@ -3,6 +3,10 @@
     src: url('../font/viga-regular-webfont.woff');
 }
 
+.navbar-brand {
+    font-family: 'viga', Arial, sans-serif;
+}
+
 .collapse span {
     opacity: 1;
 }
@@ -36,5 +40,7 @@
         margin-right: -20px;
     }
 
-
+    .collapse a:hover {
+        background-color: #dc3545;
+    }
 }

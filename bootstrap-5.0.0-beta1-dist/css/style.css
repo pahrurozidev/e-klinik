@@ -12,9 +12,45 @@
 }
 
 .collapse a:hover {
-    background-color: rgb(250, 121, 121);
+    background-color: rgb(120, 158, 253);
 }
 
+.vertikal {
+    margin-top: 130px;
+}
+
+.vertikal .name {
+    font-size: 12px;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.content .col-md-3,
+.col-md-6 {
+    position: relative;
+}
+
+.content a:hover {
+    text-decoration: underline !important;
+}
+
+.content .icon {
+    position: absolute;
+    font-size: 90px;
+    right: 30px;
+    top: 35px;
+    opacity: 0.2;
+}
+
+/* .content .relasi {
+    position: absolute;
+    left: 210px;
+    bottom: -5px;
+} */
+
+/* Desktop Version */
 @media (min-width: 992px) {
     .collapse span {
         opacity: 0;

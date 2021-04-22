@@ -44,12 +44,6 @@
     opacity: 0.2;
 }
 
-/* .content .relasi {
-    position: absolute;
-    left: 210px;
-    bottom: -5px;
-} */
-
 /* Desktop Version */
 @media (min-width: 992px) {
     .collapse span {
@@ -77,6 +71,6 @@
     }
 
     .collapse a:hover {
-        background-color: #dc3545;
+        background-color: #0d6efd !important;
     }
 }
